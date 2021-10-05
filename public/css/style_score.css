@@ -1,0 +1,21 @@
+.tier {
+    font-size: 3vh;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    margin: 0;
+}
+
+.reload {
+    margin: 0;
+    padding: 0;
+    /* height: 5vh;
+    align-items: center;
+    text-align: center; */
+}
+
+.r_button {
+    font-size: 4vh;
+    height: auto;
+    padding: 10px;
+}
