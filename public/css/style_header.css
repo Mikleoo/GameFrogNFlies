@@ -1,0 +1,24 @@
+#header {
+  border: 1px solid;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  align-items: center;
+}
+
+.button {
+  margin: 2px;
+}
+
+#title {
+  margin: 0;
+  font-size: 20px;
+}
+
+#container-button {
+
+}
+
+#score {
+  margin: 0;
+}

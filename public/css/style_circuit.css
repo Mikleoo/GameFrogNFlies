@@ -1,0 +1,41 @@
+body {
+  background-color: #90caf9;
+}
+
+.square {
+  background: url("../ressources/water50icon.png");
+}
+
+.frog {
+  background: url("../ressources/frog50icon.png");
+}
+
+.rock {
+  background: url("../ressources/rock50icon.png");
+}
+
+.fly {
+  background: url("../ressources/fly50icon.png");
+}
+
+#container-circuit {
+  width: 100%;
+  margin: 1px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  justify-content: center;
+}
+
+.square {
+  background-color: grey;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+}
